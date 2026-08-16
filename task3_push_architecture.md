@@ -26,14 +26,14 @@ flowchart TB
 
     subgraph "Канальные процессоры (Channel Workers)"
         PUSH_PROC[Push Processor<br>Consumer]
-        EMAIL_PROC[Email Processor<br>Consumer (опционально)]
-        SMS_PROC[SMS Processor<br>Consumer (опционально)]
+        EMAIL_PROC[Email Processor<br>Consumer - опционально]
+        SMS_PROC[SMS Processor<br>Consumer - опционально]
     end
 
     subgraph "Внешние шлюзы (Push Gateways)"
-        FCM[FCM<br>Firebase Cloud Messaging<br>(Android)]
-        APNS[APNs<br>Apple Push Notification<br>(iOS)]
-        WEB[Web Push API<br>(браузеры / PWA)]
+        FCM[FCM<br>Firebase Cloud Messaging<br>Android]
+        APNS[APNs<br>Apple Push Notification<br>iOS]
+        WEB[Web Push API<br>браузеры / PWA]
     end
 
     subgraph "Мобильное приложение"
