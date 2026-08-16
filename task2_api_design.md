@@ -42,7 +42,7 @@
 ```text
 https://api.petrushka-green.ru/api/v1/stores/nearby?lat=55.7558&lng=37.6173&limit=4&offset=0
 ```
-### 3. Пример успешного ответа
+### 2.5. Пример успешного ответа
 ```
 {
   "data": [
