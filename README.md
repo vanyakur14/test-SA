@@ -29,7 +29,7 @@
 ## 🚀 Как просматривать решение
 
 1. Перейдите в папку [`test-SA/`](test-SA/) или кликните по ссылкам ниже:
-   - [Задание 1: Анализ требований](test-SA/task1_requirements_analysis.md)
+   - [Задание 1: Анализ требований]([test-SA/task1_requirements_analysis.md](https://github.com/vanyakur14/test-SA/blob/main/task1_requirements_analysis.md))
    - [Задание 2: Проектирование API](test-SA/task2_api_design.md)
    - [Задание 3: Архитектура](test-SA/task3_push_architecture.md)
 2. GitHub автоматически отрендерит Markdown-файлы с подсветкой кода и схемами.
