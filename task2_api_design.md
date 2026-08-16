@@ -41,3 +41,51 @@
 
 ```text
 https://api.petrushka-green.ru/api/v1/stores/nearby?lat=55.7558&lng=37.6173&limit=4&offset=0
+
+### 3. Пример успешного ответа
+
+{
+  "data": [
+    {
+      "id": "metro_001",
+      "name": "METRO",
+      "logo": "https://cdn.petrushka-green.ru/logos/metro.png",
+      "deliveryTime": "Ближайшая доставка сегодня 21:00–23:00",
+      "url": "https://metro.ru/special-offer?utm_source=petrushka",
+      "rating": 4.8,
+      "distance": 1.2
+    },
+    {
+      "id": "ashan_002",
+      "name": "Ашан",
+      "logo": "https://cdn.petrushka-green.ru/logos/ashan.png",
+      "deliveryTime": "Ближайшая доставка сегодня 18:00–20:00",
+      "url": "https://ashan.ru/promo?ref=petrushka",
+      "rating": 4.5,
+      "distance": 2.7
+    },
+    {
+      "id": "vkusvill_003",
+      "name": "ВкусВилл",
+      "logo": "https://cdn.petrushka-green.ru/logos/vkusvill.png",
+      "deliveryTime": "Быстрая доставка от 20 до 60 минут",
+      "url": "https://vkusvill.ru/express?partner=petrushka",
+      "rating": 4.9,
+      "distance": 0.8
+    },
+    {
+      "id": "victoria_004",
+      "name": "ВИКТОРИЯ",
+      "logo": "https://cdn.petrushka-green.ru/logos/victoria.png",
+      "deliveryTime": "Ближайшая доставка сегодня 17:00–19:00",
+      "url": "https://victoria.ru/current-deals",
+      "rating": 4.2,
+      "distance": 3.1
+    }
+  ],
+  "meta": {
+    "total": 4,
+    "limit": 4,
+    "offset": 0
+  }
+}
